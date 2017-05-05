@@ -170,7 +170,7 @@ Swarm: active
  ...
 ```
 
-We see can that only SWARM Manager node is on-line and ready to accept connections from SWARM workers
+We can see that only SWARM Manager node is on-line and ready to accept connections from SWARM workers
 
 ```bash
 $ sudo docker network ls
