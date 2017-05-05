@@ -571,7 +571,7 @@ f44qu18w6o3u77501fyjk1q3v  my-web.3  nginx  swarmb  Running        Running 17 se
 31kfa3tar52dp6hgi3xf7lvwb  my-web.4  nginx  swarmb  Running        Running 17 seconds ago
 ```
 
-Let's see how we can tell node to empty its workload, we drain the node to makse not service replicas are running on it
+Let's see how we can tell node to empty its workload, we drain the node to make sure no service replicas are running on it
 
 ```bash
 $ sudo docker node update --availability drain swarma
